@@ -12,8 +12,8 @@ function takeANumber(katzDeliLine, customerName){
 function nowServing(katzDeliLine){
 
   (katzDeliLine.length < 1)
-    ? "There is nobody waiting to be served!"
-    : "Currently serving " + katzDeliLine.shift() + ".";
+    ? ("There is nobody waiting to be served!")
+    : ("Currently serving " + katzDeliLine.shift() + ".");
 
 }
 
