@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine, customerName){
 //returns the first person in line and removes it from the array
 function nowServing(katzDeliLine){
 
-  (katzDeliLine.length < 1) ? ("There is nobody waiting to be served!") : ("Currently serving " + katzDeliLine.shift() + ".");
+  (katzDeliLine.length < 1) ? ("There is nobody waiting to be served!") : ("Currently serving " ;
 
 }
 
